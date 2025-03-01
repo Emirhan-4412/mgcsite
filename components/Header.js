@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import styles from '../styles/Header.module.css';
+import styles from '../styles/Header.module.css'; // CSS modülünü import et
 
 export default function Header() {
   const [isAdmin, setIsAdmin] = useState(false);
